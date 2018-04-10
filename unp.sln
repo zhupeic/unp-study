@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D", "unp\unp.vcxproj", "{F5EDF36F-6235-4509-A0FE-C548DF784702}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-10endian", "unp\unp.vcxproj", "{F5EDF36F-6235-4509-A0FE-C548DF784702}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "第二章", "第二章", "{1E576FB6-8CE0-491E-804D-70BA29396091}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "第三章", "第三章", "{1E576FB6-8CE0-491E-804D-70BA29396091}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "第四章", "第四章", "{4E2B7EB7-E908-4AC5-88CF-F0FFBB8C927B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-11time", "unp\第四章\4-11time\4-11time.vcxproj", "{36338660-1809-4018-A72C-A127D45994B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +33,25 @@ Global
 		{F5EDF36F-6235-4509-A0FE-C548DF784702}.Release|x64.Build.0 = Release|x64
 		{F5EDF36F-6235-4509-A0FE-C548DF784702}.Release|x86.ActiveCfg = Release|x86
 		{F5EDF36F-6235-4509-A0FE-C548DF784702}.Release|x86.Build.0 = Release|x86
+		{36338660-1809-4018-A72C-A127D45994B4}.Debug|ARM.ActiveCfg = Debug|ARM
+		{36338660-1809-4018-A72C-A127D45994B4}.Debug|ARM.Build.0 = Debug|ARM
+		{36338660-1809-4018-A72C-A127D45994B4}.Debug|x64.ActiveCfg = Debug|x64
+		{36338660-1809-4018-A72C-A127D45994B4}.Debug|x64.Build.0 = Debug|x64
+		{36338660-1809-4018-A72C-A127D45994B4}.Debug|x86.ActiveCfg = Debug|x86
+		{36338660-1809-4018-A72C-A127D45994B4}.Debug|x86.Build.0 = Debug|x86
+		{36338660-1809-4018-A72C-A127D45994B4}.Release|ARM.ActiveCfg = Release|ARM
+		{36338660-1809-4018-A72C-A127D45994B4}.Release|ARM.Build.0 = Release|ARM
+		{36338660-1809-4018-A72C-A127D45994B4}.Release|x64.ActiveCfg = Release|x64
+		{36338660-1809-4018-A72C-A127D45994B4}.Release|x64.Build.0 = Release|x64
+		{36338660-1809-4018-A72C-A127D45994B4}.Release|x86.ActiveCfg = Release|x86
+		{36338660-1809-4018-A72C-A127D45994B4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F5EDF36F-6235-4509-A0FE-C548DF784702} = {1E576FB6-8CE0-491E-804D-70BA29396091}
+		{36338660-1809-4018-A72C-A127D45994B4} = {4E2B7EB7-E908-4AC5-88CF-F0FFBB8C927B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48569446-2C7A-4788-85BB-1C2882277141}
